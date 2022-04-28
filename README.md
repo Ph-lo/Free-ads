@@ -12,7 +12,7 @@ Online classified advertisement website
 A simple ad site that lets members sell and buy various products.
 
 <p align="center">
-  <img src="https://github.com/EpitechWebAcademiePromo2023/W-PHP-502-STG-2-1-FreeAds-philippe.locatelli/blob/master/Webp.net-resizeimage.png?raw=true" />
+  <img src="https://github.com/Ph-lo/Free-ads/blob/master/Webp.net-resizeimage.png" />
 </p>
 
 
