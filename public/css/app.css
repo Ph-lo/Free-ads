@@ -1,0 +1,330 @@
+#banner-menu-content {
+    /* background-color: aqua; */
+    margin-left: -100px;
+}
+#banner-menu-content2 {
+    width: 450px;
+    padding: 25px;
+    margin-top: 10px;
+}
+/* .back-link {
+    margin-left: 50px;
+} */
+#modify-profile-card {
+    margin-top: 10%;
+}
+#banner-menu {
+    background-color: #2a2a2a00;
+    border: none;
+}
+#banner-menu2 {
+    border-radius: 30px;
+}
+#password-modify-card {
+    border-top: 1px solid #dfdfdf;
+}
+#search-addon {
+    padding: 2px;
+}
+#search-bt {
+    border: none;
+    background-color: #2a2a2a00;
+}
+#search-bar-div {
+    display: flex;
+    justify-content: space-between;
+}
+.btn-primary {
+    margin-top: 20px;
+    margin-left: 8px;
+}
+.alert-danger,
+.alert-success {
+    width: 50%;
+    margin: auto auto 30px auto;
+    text-align: center;
+    padding-top: 25px;
+}
+.card-header p {
+    margin: 0;
+}
+#user-ads-card-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#ads-cont {
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; */
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px, 1fr));
+    
+}
+.adsCard {
+    margin-bottom: 20px;
+    width: 270px;
+    /* height: 500px; */
+    /* height: 310px; */
+    /* margin: auto 50px 20px 50px; */
+    /* margin: auto; */
+    /* flex: 0 0 30%; */
+}
+.card-bdy {
+    height: 375px;
+    padding: 0;
+}
+.ad {
+   text-align: center; 
+}
+.adTitre {
+    text-align: center;
+}
+.ads-img-div {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    border-bottom: 1px solid #dfdfdf;
+}
+/* .ads-img {
+    width: 270px;
+} */
+.ads-infos {
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.ads-date {
+    font-weight: lighter;
+}
+#ad-desc {
+    /* margin-top: 40px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+#price-div {
+    width: 35%;
+    padding-left: 10px;
+    border-left: 1px solid #d8d8d8;
+}
+#price-div p {
+    margin-left: 5px;
+    font-weight: bold;
+}
+/* #ad-view {
+    display: flex; */
+    /* justify-content: space-around;
+} */
+.ads-hdr-div {
+    display: flex;
+    justify-content: space-between;
+}
+.ads-hdr-div a {
+    text-decoration: none;
+}
+.alter-butn {
+    display: flex;
+    /* justify-content: space-between; */
+
+}
+.alter-butn p {
+    background-color: #2a2a2a23;
+    border-radius: 50%;
+    width: 26px;
+}
+.modify-butn {
+    /* margin-left: 6px; */
+    width: 24px;
+}
+.delete-butn {
+    margin-left: 8px;
+    width: 20px;
+}
+
+.links {
+    height: 50px;
+}
+.w-h .h-5 {
+    width: 40px;
+    height: 40px;
+}
+
+#new-message-form {
+    /* text-align: center; */
+    margin: auto;
+}
+#new-message-form textarea {
+    resize: none;
+    border-radius: 5px;
+    border: 2px solid #dfdfdf;
+    padding: 10px;
+}
+#send-message-bt {
+    margin: auto;
+    text-align: center;
+}
+
+#messages-cont {
+    height: 500px;
+    border: 2px solid #dfdfdf;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 15px;
+    overflow: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
+}
+#convos-div {
+    /* padding: 20px; */
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(340px, 200px));
+    /* column-gap: 25px; */
+    /* grid-gap: 50px; */
+}
+.convo-div,
+.convo-div-new {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10% 15px 10%;
+    border: 1px solid #dfdfdf;
+    border-radius: 10px;
+    width: 320px;
+    /* border-bottom: 1px solid #dfdfdf; */
+}
+.convo-div-new {
+    background-color: #f7f7f7;
+}
+.convo-div-sub {
+    display: flex;
+    justify-content: space-between;
+    width: 90px;
+}
+.convo-message {
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.convo-message-cont-user {
+    width: fit-content;
+    background-color: #f7f7f7;
+    padding: 5px 10px 5px 20px;
+    border-radius: 10px;
+}
+.convo-message-cont {
+    width: fit-content;
+    background-color: #c6eafe;
+    padding: 5px 20px 5px 10px;
+    border-radius: 10px;
+}
+.convo-message-user {
+    display: flex;
+    justify-content: end;
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-align: right;
+}
+#new-message-textarea {
+    width: 96%;
+    margin: auto;
+    resize: none;
+    border: 2px solid #dfdfdf;
+    border-radius: 10px;
+    padding-top: 5px;
+    /* background-color: rebeccapurple; */
+}
+.message-date {
+    font-size: 12px;
+    margin: 0;
+}
+.btn-primary a {
+    text-decoration: none;
+    color: white;
+}
+#no-message {
+    text-align: center;
+    margin-top: 35px;
+}
+/* ========================================= */
+/*                  CAROUSEL                 */
+
+.slider{
+    position:relative;
+    /* width:600px; */
+    height: 380px;
+    width: 100%;
+    overflow:hidden;
+    /* border-bottom: 1px solid #d8d8d8; */
+    margin:20px auto 0 auto;
+    margin-bottom: 20px;
+  }
+  
+  .slider ol{
+    position:relative;
+    /* width:300px; */
+    width: 100%;
+    margin:0;
+    padding:0;
+    height:200px;
+    display:inline-block;
+    list-style:none;
+    /* background:rgba(68, 85, 136, 0.384); */
+  }
+  
+  
+  .slider ol li{
+    position:relative;
+    float:left;
+    display:inline-block;
+    /* text-align: center; */
+    /* margin:auto; */
+    margin-left: 25%;
+    padding:0;
+    /* width:600px; */
+    width: 100%;
+    height:380px;
+    background:#fff;
+    text-align:center;
+    line-height:300px;
+    /* color:#333; */
+  }
+  #single-pic-slider {
+    margin-left: 0;
+}
+  
+  .control{
+    position: absolute;
+    top: 40%;
+    z-index: 999;
+    display: block;
+    /* padding: -5px 5px 5px 15px; */
+    /* padding-left: 15px; */
+    /* padding-top: -100px; */
+    padding-bottom: 50px;
+    text-align: center;
+    width: 48px;
+    height: 42px;
+    background: #2a2a2a23;
+    border-radius: 100%;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 30px;
+    opacity: 0.8;
+    /* cursor: pointer; */
+  }
+  
+  .prev{
+    left:0px;
+  }
+  
+  .next{
+    right:0px;
+  }
+  
+  li img {
+      height: 350px;
+      /* margin-left: -55%; */
+  }
